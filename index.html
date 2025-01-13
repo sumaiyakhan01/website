@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="media.css">
+     <!--add the link of bootstrap,fonts,icons-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+       
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <script src='https://kit.fontawesome.com/4c729db828.js'crossorigin="anonymous"></script>
+<title>Document</title>
+</head>
+<body>
+     <!--now start-->
+     <div class="header">
+          <div class="nav_bar-top">
+               <div class="container-fluid">
+                    <div class="text-container">
+                      <div class="text-content">
+
+                   <p class="para-text"><span class="span_text"><i class="fa-solid fa-envelope"></i></i></span>Example@gmail.com</p>
+                     <p class="para-text"><span class="span_text"><i class="fa-solid fa-phone"></i></span>+021-1234 5678</p>
+                 </div>
+                 <div class="social-link">
+                    <i class="fa-brands icon-social fa-facebook"></i>
+                    <i class="fa-brands icon-social fa-snapchat"></i>
+                    <i class="fa-brands icon-social fa-whatsapp"></i>
+                    <i class="fa-brands icon-social fa-instagram"></i>
+                    <i class="fa-brands icon-social fa-linkedin-in"></i>
+                 </div>
+                 <div class="navbar-container">
+                    <!--navbar boodstrap-->
+                    <nav class="navbar navbar-expand-lg">
+                         <div class="container-fluid">
+                           <a class="navbar-brand" href="#">
+                              <h3 class="heading-logo">Tour<span>er.</span></h3>
+                           </a>
+                           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                             <span class="navbar-toggler-icon"></span>
+                           </button>
+                           <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                             <ul class="navbar-nav ms-auto">
+                               <li class="nav-item">
+                                 <a class="nav-link" aria-current="page" href="#home">Home</a>
+                               </li>
+                               <li class="nav-item">
+                                 <a class="nav-link" href="#about">about</a>
+                               </li>
+                               <li class="nav-item">
+                                   <a class="nav-link" href="#Services">Services</a>
+                                 </li>
+                                 <li class="nav-item">
+                                   <a class="nav-link" href="#packages">packages</a>
+                                 </li>
+                                 <li class="nav-item">
+                                  <a class="nav-link" href="register2.php">Register</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="login2.php">login</a>
+                                </li>
+                               <li class="nav-item dropdown">
+                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                   FAQ
+                                 </a>
+                                 <ul class="dropdown-menu">
+                                   <li><a class="dropdown-item" href="#about">About Us</a></li>
+                               </li>
+                                 <li class="nav-item">
+                                   <a class="nav-link" href="#">Contact</a>
+                                 </li>
+                             </ul>
+                           </div>
+                         </div>
+                       </nav>
+                 </div>
+          </div>
+     </div>
+<!--nav-bar top finished-->
+   <section id="home"></section>
+     <div class="home-section">
+      <div class="container-fluid gx-0">
+
+        <!--sliders-->
+
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+
+<div class="home-content img-1">
+  <div class="content-home">
+
+     <h3 class="heading-home">LET US TAKE YOU TO YOUR</h3>
+     <h2 class="heading-lg-home">DREAM DESTINATION</h2>
+     <a href="#" class="btn-home">Explore More</a>
+
+  </div>
+</div>
+
+            </div>
+            <div class="carousel-item">
+            </div>
+            
+          <div class="home-content img-2">
+            <div class="content-home">
+          
+               <h3 class="heading-home">TOURS & TRAVEL</h3>
+               <h2 class="heading-lg-home">Let's Discover The World Together</h2>
+               <a href="#" class="btn-home">Explore More</a>
+          
+            </div>
+          </div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            
+
+               <span><i class="fa-solid icon-scroll fa-angles-left"></i></span>
+
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+           
+                <span><i class="fa-solid  ico -scroll fa-angles-right"></i></span>
+          </button>
+        </div>
+            
+
+     <!--header completed-->
+
+     <div class="selection mb-5  ">
+          <div class="selection_container">
+
+           <select class="countries  boxes">
+
+           <option value="country0">countries</option>
+           <option value="country0">England</option>
+           <option value="country0">Australia</option>
+           <option value="country0">South Africa</option>
+           <option value="country0">Srilanka</option>
+
+           </select>
+
+           <select class="destination boxes">
+
+               <option value="Destination">Destination</option>
+               <option value="country0">Destination2</option>
+               <option value="country0">Destination3</option>
+               <option value="country0">Destination4</option>
+               <option value="country0">Destination5</option>
+    
+               </select>
+
+               <select class="destination boxes">
+
+                    <option value="Destination">budget</option>
+                    <option value="country0">10000$</option>
+                    <option value="country0">20000$</option>
+                    <option value="country0">50000$</option>
+                    <option value="country0">100000$</option>
+         
+                    </select>
+
+                    <select class="destination boxes">
+
+                      <option value="Destination">Duration</option>
+                      <option value="country0">Duration1</option>
+                      <option value="country0">Duration2</option>
+                      <option value="country0">Duration3</option>
+                      <option value="country0">Duration4</option>
+           
+                      </select>
+
+                      <a href="#" class="select-btn">submit</a>
+                      <!--lets design it-->
+          </div>
+     </div>
+
+     <!--about section-->
+
+     <section class="about " id="about">
+      <h2 class="heading-about" style="margin-top: 60px;"  >ABOUT OUR TRAVEL AGENCY</h2>
+      <P class="para-about-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi  consequater quas error, sapiente modi placet asperiores blanditiis repudiaandae!</P>
+
+      <div class="container about-us-content">
+        <div class="row">
+          <div class="col-lg-3 col-md-12">
+            <div class="img-about">
+              <img src="images/image 3.jpg" class="img-fluid image-content" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12">
+           <div class="content-about">
+            <h4 class="heading-content">About Us</h4>
+            <p class="para-content-about">consequater dolores non perspiciatis nisi.,dolores non perspiciatis nisi.Velit excepturi fuga vitaevelit excepturi fuga vitae  voluptates,dolores non perspiciatis nisi.velitexcepturi fuga vitae voluptatum odit molestiae sequi,recusandae, dolores non perspiciatis nisi. velitexcepturi fuga vitae ,dolor expedita qui quo id blanditiis inventore perfendis aspernatur consequnnturmolestias dolores esse ab deserunt quae nulla autem porro repellendus nam asperiores placeat magnam. Eos,dolor quas dolorem ad laudantium is nisi., dolores non perspiciatis nisi. velit excepturi fugav consectetur laborum ab explicabo his commodi!</p>
+            
+           </div>
+          </div>
+
+          <div class="col-lg-3 col-md-12">
+            <div class="img-about">
+              <img src="images/image 4.jpg" class="img-fluid image-content" alt="">
+            </div>   
+          </div>
+
+        </div>
+      </div>
+     </section>
+
+      <!--About us section completed-->
+
+         <section class="Services" id="Services">
+          <h4 class="heading_sm">Services</h4>
+          <h2 class="heading-lg">Travel & Tours Services</h2>
+
+          <div class="container  container-services">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 px-lg-2">
+                <div class="content-seervices">
+                  <div class="img-container">
+                    <img src="images/image 18.jpeg"  class="img-service" alt=""> 
+                  </div>
+                              <h3 class="heading-tour">Different countries</h3>
+                              <p class="para-tour">Lorem ipsum dolor sit amet, adipisicing elit Eaquidem.</p>
+                              <a href="#" class="btn-service">Read More</a> 
+                            
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 px-lg-2">
+                <div class="content-seervices">
+                  <div class="img-container">
+                    <img src="images/New folder/image 13.jpeg"  class="img-service" alt=""> 
+                  </div>
+                              <h3 class="heading-tour">Mountais Tours</h3>
+                              <p class="para-tour">Lorem ipsum dolor sit amet, adipisicing elit Eaquidem.</p>
+                              <a href="#" class="btn-service">Read More</a> 
+                            
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 px-lg-2">
+
+
+                <div class="content-seervices">
+                  <div class="img-container">
+                    <img src="images/image 16.jpeg"   class="img-service" alt=""> 
+                  </div>
+                              <h3 class="heading-tour">Travel Guide</h3>
+                              <p class="para-tour">Lorem ipsum dolor sit amet, adipisicing elit Eaquidem.</p>
+                              <a href="#" class="btn-service">Read More</a> 
+                            
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 px-lg-2">
+
+
+                <div class="content-seervices">
+                  <div class="img-container">
+                    <img src="images/image 15.jpeg"  class="img-service" alt=""> 
+                  </div>
+                              <h3 class="heading-tour">Hotel Booking</h3>
+                              <p class="para-tour">Lorem ipsum dolor sit amet, adipisicing elit Eaquidem.</p>
+                              <a href="#" class="btn-service">Read More</a> 
+                            
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+         </section>
+
+         <!--service section completed-->
+
+         <section class="packages" id="packages">
+          <h4 class="heading_sm">Packages</h4>
+          <h2 class="heading-lg">Travel & Tours packages</h2>
+
+          <div class="container-packeges">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 col-md--6">
+                  <div class="content-packages">
+
+                      <div class="img-pakages">
+                  <img src="images/image20.jpg" width="9px"  class="image-packages" alt="">
+                      </div>
+
+                  <div class="content-package-container">
+
+                     <div class="details-packages">
+                      <p class="detail-text"><span class="icon-detail"><i class="fa-solid fa-location-dot"></i></span>paris</p>
+                      <p class="detail-text"><span class="icon-detail"><i class="fa-solid fa-calendar-days"></i></span>3 Days</p>
+                      <p class="detail-text"><span class="icon-detail"><i class="fa-solid fa-users"></i></span>5 person</p>
+                     </div>
+
+                    <h4 class="heading-content-packages">
+                      Let's Discover the world Beautiful places Together
+                    </h4>
+                    <hr>
+                    <div class="rating">
+                      <p class="rate"><span class="stars"><i class="fa-solid fa-star"></i></span>4.8(150)</p>
+                      <h4 class="price">$200</h4>
+                    </div>
+                      
+
+                  </div>
+
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md--6">
+                  <div class="content-packages">
+
+                      <div class="img-pakages">
+                  <img src="images/image22.jpg" width="9px"  class="image-packages" alt="">
+                      </div>
+
+                  <div class="content-package-container">
+
+                     <div class="details-packages">
+                      <p class="detail-text"><span class="icon-detail"><i class="fa-solid fa-location-dot"></i></span>paris</p>
+                      <p class="detail-text"><span class="icon-detail"><i class="fa-solid fa-calendar-days"></i></span>3 Days</p>
+                      <p class="detail-text"><span class="icon-detail"><i class="fa-solid fa-users"></i></span>5 person</p>
+                     </div>
+
+                    <h4 class="heading-content-packages">
+                      Let's Discover the world Beautiful places Together
+                    </h4>
+                    <hr>
+                    <div class="rating">
+                      <p class="rate"><span class="stars"><i class="fa-solid fa-star"></i></span>4.8(150)</p>
+                      <h4 class="price">$200</h4>
+                    </div>
+                      
+
+                  </div>
+
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md--6">
+                  <div class="content-packages">
+
+                      <div class="img-pakages">
+                  <img src="images/image 23.jpg" width="9px"  class="image-packages" alt="">
+                      </div>
+
+                  <div class="content-package-container">
+
+                     <div class="details-packages">
+                      <p class="detail-text"><span class="icon-detail"><i class="fa-solid fa-location-dot"></i></span>paris</p>
+                      <p class="detail-text"><span class="icon-detail"><i class="fa-solid fa-calendar-days"></i></span>3 Days</p>
+                      <p class="detail-text"><span class="icon-detail"><i class="fa-solid fa-users"></i></span>5 person</p>
+                     </div>
+
+                    <h4 class="heading-content-packages">
+                      Let's Discover the world Beautiful places Together
+                    </h4>
+                    <hr>
+                    <div class="rating">
+                      <p class="rate"><span class="stars"><i class="fa-solid fa-star"></i></span>4.8(150)</p>
+                      <h4 class="price">$200</h4>
+                    </div>
+                      
+
+                  </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+         </section>
+
+         <!--packages part finish-->
+
+
+         <footer>
+          <div class="foter-container">
+            <div class="container">
+              <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+
+              <h3 class="heading-logo footer-logo">Tour<span>er.</span></h3>
+              <p class="footer-para">Lorem ipsum sit amet  consectetur adipisicing elit. similique beatae, reprehenderit ipsum amet non maxime eius nostrum quam ipsa dolor rem culpa illo veritatis  </p>
+
+
+              <h5 class="heading-sm-footer">FOllOW US</h5>
+
+
+              <div class="social-link-footer">
+                <i class="fa-brands icon-social-footer fa-facebook"></i>
+                <i class="fa-brands icon-social-footer fa-snapchat"></i>
+                <i class="fa-brands icon-social-footer fa-whatsapp"></i>
+                <i class="fa-brands icon-social-footer fa-instagram"></i>
+                <i class="fa-brands icon-social-footer fa-linkedin-in"></i>
+             </div>
+
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="pages-footer">
+                  <h3 class="heading-pages">pages links</h3>
+                  <!--navbar cop from top navbar-->
+
+                  <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="nav-link footer-links" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link footer-links" href="#">about</a>
+                    </li>
+                   <li class="nav-item">
+                      <a class="nav-link footer-links" href="#">Tours</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link footer-links" href="#">Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link footer-links" href="#">Pakages</a>
+                      </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link footer-links dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        FAQ
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">About Us</a></li>
+                        <li><a class="dropdown-item" href="#">Company</a></li>
+                        <li><a class="dropdown-item" href="#">Experience</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link footer-links" href="#">Blogs</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link footer-links" href="#">Contact</a>
+                      </li>
+                  </ul>
+                
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                     
+              <h3 class="heading-pages">Contact Us</h3>
+
+              <p class="Contact-footer">
+                <span class="text-contact"><i class="fa-solid footer-icons fa-location-dot"></i>123 street New York</span>
+               <span class="text-contact"><i class="fa-solid footer-icons fa-envelope"></i>Example@gmail.com</span>
+               <span class="text-contact"><i class="fa-solid footer-icons fa-phone"></i>+021-1234 5678</span>
+              </p>
+
+              </div>
+              </div>
+            </div>
+          </div>
+
+             <div class="container-fluid gx-0">
+
+              <div class="footer-rights">
+                <p class="rights-para">Copyright @ Web Turoials. All Rights Reserved</p>
+              </div>
+
+             </div>
+
+         </footer>
+       
+</body>
+
+<!--boodstrap js script-->
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</html>
